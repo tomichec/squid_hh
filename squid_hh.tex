@@ -1,0 +1,36 @@
+\documentclass[a4paper]{memoir}
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[dvips]{graphicx}
+\usepackage{psfrag}
+
+\thispagestyle{empty}
+
+\newcommand{\labelsize}{\scriptsize}
+  
+\begin{document}
+\psfrag{TIME}{\labelsize $t$~(ms)}
+
+\psfrag{N}{\labelsize \hspace{-0.2em}$n$}
+\psfrag{H}{\labelsize \hspace{-0.2em}$h$}
+\psfrag{M}{\labelsize \hspace{-0.2em}$m$}
+\psfrag{VM}{\labelsize \hspace{-0.2em}$V_m$}
+\psfrag{INa}{\labelsize \hspace{-0.2em}$I_\mathrm{Na}$}
+\psfrag{IKK}{\labelsize \hspace{-0.2em}$I_\mathrm{K}$}
+
+\psfrag{MH}[c][c]{\labelsize $m$, $h$}
+\psfrag{TIKKINa}[c][c]{\labelsize $I_\mathrm{K}$, $I_\mathrm{Na}$ ($\mu$A/cm$^2$)}
+
+\psfrag{TINa}[c][c]{\labelsize $I_\mathrm{Na}$ ($\mu$A/cm$^2$)}
+\psfrag{TIKK}[c][c]{\labelsize $I_\mathrm{K}$ ($\mu$A/cm$^2$)}
+\psfrag{TVM}[c][c]{\labelsize $V_m$ (mV)}
+
+  
+    \includegraphics{vm.eps}\\
+    (a)    \\
+    \begin{tabular}{l@{}l@{}}
+    \includegraphics{ina.eps}
+&
+    \includegraphics{ik.eps}\\
+ (b)&   (c)
+  \end{tabular}
+\end{document}
