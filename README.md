@@ -1,5 +1,8 @@
 # Squid Hh
 
+[![DOI](https://zenodo.org/badge/599016020.svg)](https://zenodo.org/badge/latestdoi/599016020)
+
+
 This is an implementation of Hodgkin and Huxley (1952) squid giant
 axon model.
 
